@@ -1,5 +1,15 @@
+import Header from "./components/Header/Header"
+import Logos from "./components/Logos/Logos";
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return (
+	<div>
+<Header/>;
+<Logos/>
+	</div>
+	
+	
+	)
 };
 
 export default App;
